@@ -28,3 +28,7 @@ All commits in the merged branches now are reachable with the 'log' command for 
 All commits from the merged branches are sorted by time when you run a 'log' command in the current branch.
 All changes introduced after the branches became separate are reflected in the current state of the files.
 We represent them in the diagram the way we do, because all of them can be reached from the current branch, but they where made in different branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pro: it's much faster to let Git make an automatic merge if there are no conflicts then to manually do it every time.
+Con: if you do merges manualy, there can be more undestanding of the changes that were made.
