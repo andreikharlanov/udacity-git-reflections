@@ -21,3 +21,10 @@ How do the diagrams help you visualize the branch structure?
 They help to understand how different commits relate to each other.
 And the diagrams help to see the reachability of the git log command.
 And they help and to see when new branches were created.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Tip of the branch is pointing to the last commit introduced in one of the merged branches.
+All commits in the merged branches now are reachable with the 'log' command for the current branch.
+All commits from the merged branches are sorted by time when you run a 'log' command in the current branch.
+All changes introduced after the branches became separate are reflected in the current state of the files.
+We represent them in the diagram the way we do, because all of them can be reached from the current branch, but they where made in different branches.
