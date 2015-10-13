@@ -12,7 +12,7 @@ Con: you can forgot to save frequent enough.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 It's useful for the commits to have the ability to contain changes for multiple files because a logical change in program can require changing a few files at once.
-In Google Docs each file normally are self-contained and not directly linked to other files. So tracking changes in one file at a time is more logical in this case.
+In Google Docs each file normally is self-contained and is not directly linked to other files. So tracking changes in one file at a time is more logical in this case.
 
 How can you use the commands git log and git diff to view the history of files?
 git log shows the full history of commits with time of the commits, authors, and comments.
@@ -23,4 +23,4 @@ How might using version control make you more confident to make changes that cou
 When you use version control system, you can always revert any change, so if your change break something, you can just revert it and you code will work again.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-I'd like to use Git for developing WordPress theme. And I'd like to try using Git for my writing.
+I'd like to use Git for developing a WordPress theme. And I'd like to try using Git for my writing.
