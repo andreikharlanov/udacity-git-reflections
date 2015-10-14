@@ -16,3 +16,9 @@ That way you can see the relations between local and remote repositories:
 are they in sync, is remote repository is ahead of the local one or vice versa,
 or are they are out of sync. Also, if you have a copy of the remote repository,
 you can see if there are any conflicts in the code.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would use shared Dropbox folder.
+It would be easier just because everything will sync automatically.
+But it would be much harder to keep track of who changed what.
+And it would be very difficult to work simultaneously on the same files.
