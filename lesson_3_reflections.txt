@@ -10,3 +10,9 @@ I'll use branches if I need to develop a new feature or fix a bug.
 Clone is a copy of the existing repository.
 I'll use clones if I'd like to have my copy of someone's repository.
 Fork is like a clone, but it's made on the GitHub servers without cloning of the repository to the local computer.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+That way you can see the relations between local and remote repositories:
+are they in sync, is remote repository is ahead of the local one or vice versa,
+or are they are out of sync. Also, if you have a copy of the remote repository,
+you can see if there are any conflicts in the code.
